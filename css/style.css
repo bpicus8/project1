@@ -1,0 +1,13 @@
+fieldset {
+  border: none;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px;
+  }
