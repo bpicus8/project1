@@ -14,13 +14,13 @@
 	  <h1>Youth Baseball Camp Registration</h1> 
 	  <p id="p">Welcome all Chicago baseball players between the ages of 8 and 15! This session is for you if you want to perfect your technique and learn how to hit, throw, field, and run. To get started, register below. We hope to see you there! </p>
 	  <div>
-	    <label>Name: <input type="text" name="name_field" placeholder="Name" required></label>
+	    <label>Name: <input type="text" id="name" name="name_field" placeholder="Name" required></label>
 	  </div>
 	  <div>
-	    <label>Address: <input type="text" name="address_field" placeholder="Address" required></label>
+	    <label>Address: <input type="text" id="add" name="address_field" placeholder="Address" required></label>
 	  </div>
 	  <div>
-	    <label>City: <input type="text" name="city_field" placeholder="City" required></label>
+	    <label>City: <input type="text" id="city" name="city_field" placeholder="City" required></label>
 	  </div>
 	    <div>
 	    <label>State: </label>
@@ -81,19 +81,19 @@
 </select>
 	  </div>
 	    <div>
-	    <label>Zip Code: <input type="text" name="zip_field" placeholder="Zip Code" required></label>
+	    <label>Zip Code: <input type="text" id="zip" name="zip_field" placeholder="Zip Code" required></label>
 	  </div>
 	  <div>
 	    <label>Date of Birth: <input type="date" id="DOB" name="dob"></label>
 	  </div>
 	    <div>
-	    <label>Grade: <input type="text" name="phone_field" placeholder="Grade" required></label>
+	    <label>Grade: <input type="text" id="grade" name="phone_field" placeholder="Grade" required></label>
 	  </div>
 	    <div>
-	    <label>Phone Number: <input type="text" name="phone_field" placeholder="Phone Number" required></label>
+	    <label>Phone Number: <input type="text" name="phone_field" id="phone" placeholder="Phone Number" required></label>
 	  </div>
 	    <div>
-	    <label>Parent/Guardian Name: <input type="text" name="parent_field" placeholder="Preferred Guardian" required></label>
+	    <label>Parent/Guardian Name: <input type="text" name="parent_field" id="parent" placeholder="Preferred Guardian" required></label>
 	  </div>
 	    <div>
 	    <label>Shirt Size: </label>
@@ -113,7 +113,7 @@
 	    <input type="hidden" name="hidden_field" value="Brett Picus">
 	  </div>
 	  <div>
-	    <input type="submit" value="Submit">
+	    <input type="submit" id="submit" value="Submit">
 	  </div>
   </form>
 </body>
