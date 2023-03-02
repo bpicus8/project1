@@ -1,5 +1,5 @@
 body{
-	background-color:#d41243;
+	background-color:#d0d0d0;
 }
 form {
   margin: 0 auto;
@@ -20,7 +20,7 @@ h1 {
   padding: 5px;
   margin: 10px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  border: 6px solid black;
+  border: 6px solid #d41243;
  }
  
  p{
@@ -50,6 +50,7 @@ input[type="text"],select {
 	padding: 10px;
 	font-size: 16px;
 	border-radius:5px;
+	border-color:#d41243;
 }
 
 input[type="submit"] {
@@ -74,7 +75,7 @@ input[type="submit"] {
 	top: 1000px;
 	padding: 14px;
 	text-align: center;
-	border: 10px solid black;
+	border: 10px solid #d41243;
 }
 
 
