@@ -71,8 +71,8 @@ input[type="submit"] {
 	max-width: 100%;
 	height: auto;
 	position: absolute;
-	top: 1000px;
-	padding: 14px;
+	top: 1040px;
+	padding: 10px;
 	text-align: center;
 	border: 10px solid #d41243;
 }
