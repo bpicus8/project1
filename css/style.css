@@ -89,9 +89,9 @@ input[type="submit"]:hover {
   }
   
   @media only screen and (max-width: 480px) {
-  p{
-  text-align:center;
-    max-width: 100%;
+  input[type="submit"]{
+	  text-align:center;
+	  max-width: 100%;
+	  }
   }
-  
 }
