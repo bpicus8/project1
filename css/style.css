@@ -87,4 +87,11 @@ input[type="submit"]:hover {
   form {
     max-width: 100%;
   }
+  
+  @media only screen and (max-width: 480px) {
+  p{
+	text-align:center;
+    max-width: 100%;
+  }
+  
 }
