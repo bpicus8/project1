@@ -87,11 +87,11 @@ input[type="submit"]:hover {
   form {
     max-width: 100%;
   }
-  
-  @media only screen and (max-width: 480px) {
-  input[type="submit"]{
-	  text-align:center;
-	  max-width: 100%;
-	  }
+  input[type="text"] {
+    width: 80%;
+    margin-right: 10px;
+  }
+  input[type="submit"] {
+    width: 25%;
   }
 }
