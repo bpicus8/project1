@@ -27,7 +27,7 @@ h1 {
   padding: 2px;
   margin: 10px;
   text-align: center;
-  font-family: 'Open Sans', 'Arial' sans-serif;
+  font-family: 'Open Sans', 'Arial', sans-serif;
   font-size: 15px;
   font-weight: bold;
   color: black;
@@ -100,5 +100,6 @@ input[type="submit"]:hover {
     max-width: 80%;
     margin: 0 auto;
     background-color: #fff;
+  }
   }
 }
