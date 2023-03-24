@@ -55,26 +55,34 @@ input[type="text"],select {
 input[type="submit"] {
   width: 30%;
   padding: 10px;
-  padding-left: 15px;
+  padding-left: 10px;
   font-size: 20px;
   font-weight: bold;
   background-color: black;
   color: white;
   border: none;
   border-radius: 10px;
+  margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 10px;
-  position:absolute;
+  position: relative;
   text-align: center;
+  display: block;
 }
+
+
 #camp {
   max-width: 100%;
   height: auto;
   position: absolute;
   top: 1040px;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 10px;
   text-align: center;
   border: 10px solid #d41243;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -92,7 +100,7 @@ input[type="submit"]:hover {
     margin-right: 10px;
   }
   input[type="submit"] {
-    width: 25%;
+    width: 40%;
   }
   
   @media only screen and (min-width: 768px) {
